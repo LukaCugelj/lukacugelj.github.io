@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Prepoznava obraza</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+body 
+{
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #aee4eb;
+}
+
+canvas
+{
+      position: absolute;
+}
+h1
+{
+      margin-bottom:700px;
+      position: fixed;
+      font-size: 40px;
+      text-align:center;
+      color: #3a2715;
+}
+  </style>
+</head>
+<body>
+  <h1>Prepoznava obraza</h1>
+  <video id="video" width="720" height="560" autoplay muted></video>
+</body>
+</html>
